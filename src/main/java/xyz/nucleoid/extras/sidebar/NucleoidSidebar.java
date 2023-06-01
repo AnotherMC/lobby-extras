@@ -23,9 +23,9 @@ public final class NucleoidSidebar {
 
     public static final RegistryKey<World> DIMENSION = World.OVERWORLD;
 
-    private static final Style MAIN_TITLE_STYLE = Style.EMPTY.withColor(0xffb947).withBold(true);
+    private static final Style MAIN_TITLE_STYLE = Style.EMPTY.withColor(Formatting.GOLD).withBold(true);
     private static final Style FLASH_TITLE_STYLE = Style.EMPTY.withColor(0xffffff);
-    private static final Style ALT_TITLE_STYLE = Style.EMPTY.withColor(0x00e308).withBold(true);
+    private static final Style ALT_TITLE_STYLE = Style.EMPTY.withColor(0xffd754).withBold(true);
 
     private static final Style TOP_SIDEBAR_STYLE = Style.EMPTY.withColor(0xfff173);
     private static final Style GAME_TITLE_STYLE = Style.EMPTY.withColor(0xffac12);
@@ -127,14 +127,14 @@ public final class NucleoidSidebar {
 
             b.add(Text.empty());
             if (altText) {
-                b.add(Text.translatable("lobby_extras.sidebar.join.1", Text.literal("/game join").formatted(Formatting.WHITE)).formatted(Formatting.GRAY));
+                b.add(Text.translatable("lobby_extras.sidebar.join.1", Text.literal("/join").formatted(Formatting.WHITE)).formatted(Formatting.GRAY));
             } else {
                 b.add(Text.translatable("lobby_extras.sidebar.join.2").formatted(Formatting.GRAY));
             }
 
             b.add(Text.empty());
 
-            b.add(Text.translatable("nucleoid.discord").setStyle(LINK_STYLE));
+            b.add(Text.translatable("lobby_extras.discord").setStyle(LINK_STYLE));
         });
     }
 
