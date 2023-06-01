@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "nucleoid_extras",
+  "id": "lobby_extras",
   "version": "${version}",
-  "name": "Nucleoid: Extras",
-  "description": "Nucleoid-specific features",
-  "authors": ["Gegy"],
+  "name": "Lobby Extras",
+  "description": "Dodatki dla Lobby serwera AnotherMC",
+  "authors": ["Gegy", "Patbox"],
   "license": "LGPLv3",
   "environment": "*",
   "entrypoints": {

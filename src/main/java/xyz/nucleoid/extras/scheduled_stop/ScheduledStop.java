@@ -62,12 +62,12 @@ public final class ScheduledStop {
             stopTime = time + FORCE_STOP_TIME;
 
             server.getPlayerManager().broadcast(
-                    Text.translatable("nucleoid.stop.scheduled", FORCE_STOP_MINUTES)
+                    Text.translatable("lobby_extras.stop.scheduled", FORCE_STOP_MINUTES)
                             .formatted(Formatting.BOLD, Formatting.RED),
                     false
             );
         } else {
-            source.sendError(Text.translatable("nucleoid.stop.scheduled.already"));
+            source.sendError(Text.translatable("lobby_extras.stop.scheduled.already"));
         }
 
         return Command.SINGLE_SUCCESS;
@@ -105,7 +105,7 @@ public final class ScheduledStop {
 
     private static void openGame(GameConfig<?> config, GameSpace gameSpace) {
         if (stopScheduled) {
-            throw new GameOpenException(Text.translatable("nucleoid.stop.game.open"));
+            throw new GameOpenException(Text.translatable("lobby_extras.stop.game.open"));
         }
     }
 }

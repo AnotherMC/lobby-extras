@@ -1,0 +1,60 @@
+{
+  "lobby_extras.sidebar.welcome": "Tere tulemast, %s!",
+  "lobby_extras.sidebar.player_in_game.1": "Mängus on %s mängija!",
+  "lobby_extras.sidebar.player_in_game.more": "Mängus on %s mängijat!",
+
+  "lobby_extras.sidebar.game.title": "Avatud mängud:",
+  "lobby_extras.sidebar.game.title.no_games": "Avatud mängud puuduvad!",
+  "lobby_extras.sidebar.game.entry": "%s: %s",
+  "lobby_extras.sidebar.game.more": "...ja veel %s!",
+  "lobby_extras.sidebar.game.player.1": "%s mängija",
+  "lobby_extras.sidebar.game.player.more": "%s mängijat",
+
+  "lobby_extras.sidebar.join.1": "Liitu käsklusega %s...",
+  "lobby_extras.sidebar.join.2": "...või kasutades kompassi!",
+  "nucleoid.discord": "nucleoid.xyz/discord",
+  "nucleoid.stop.scheduled": "Ajastatud on serveri taaskäivitus! Server taaskäivitub %s minuti pärast või siis, kui kõik mängud lõppevad.",
+  "nucleoid.stop.scheduled.already": "Serveri taaskäivitus on juba ajastatud.",
+  "nucleoid.stop.game.open": "Selle mänguga ei saa liituda: ajastatud on serveri peatamine!",
+
+  "block.lobby_extras.end_portal": "Endi portaal (ainult fuajees!)",
+  "block.lobby_extras.end_gateway": "Endi läbipääs (ainult fuajees!)",
+  "block.lobby_extras.gold_launch_pad": "Kullast stardiplatvorm (ainult fuajees!)",
+  "block.lobby_extras.iron_launch_pad": "Rauast stardiplatvorm (ainult fuajees!)",
+
+  "block.lobby_extras.black_concrete_powder": "Hõljuv Must betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.blue_concrete_powder": "Hõljuv Sinine betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.brown_concrete_powder": "Hõljuv Pruun betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.cyan_concrete_powder": "Hõljuv Tsüaansinine betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.green_concrete_powder": "Hõljuv Roheline betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.gray_concrete_powder": "Hõljuv Hall betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.light_blue_concrete_powder": "Hõljuv Helesinine betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.light_gray_concrete_powder": "Hõljuv Helehall betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.lime_concrete_powder": "Hõljuv Laimiroheline betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.magenta_concrete_powder": "Hõljuv Fuksiinpunane betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.orange_concrete_powder": "Hõljuv Oranž betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.pink_concrete_powder": "Hõljuv Roosa betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.purple_concrete_powder": "Hõljuv Lilla betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.red_concrete_powder": "Hõljuv Punane betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.white_concrete_powder": "Hõljuv Valge betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.yellow_concrete_powder": "Hõljuv Kollane betoonipulber (ainult fuajees!)",
+  "block.lobby_extras.tiny_potato": "Tiny Potato (ainult fuajees!)",
+  "block.lobby_extras.irritater": "Irritater (ainult fuajees!)",
+  "block.lobby_extras.azalea_tater": "Asalea-Tater (ainult fuajees!)",
+  "block.lobby_extras.stone_tater": "Kivi-Tater (ainult fuajees!)",
+  "block.lobby_extras.tateroid": "Tateroid (ainult fuajees!)",
+  "block.lobby_extras.safe_tnt": "Turvaline dünamiit (ainult fuajees!)",
+
+  "item.lobby_extras.tater_box": "Tater-kast",
+  "item.lobby_extras.quick_armor_stand": "Kiire rüüalus (ainult fuajees!)",
+
+  "text.lobby_extras.tater_box.added": "%s on sinu Tater-kasti lisatud!",
+  "text.lobby_extras.tater_box.already_added": "%s on juba sinu Tater-kastis!",
+  "text.lobby_extras.tater_box.not_owner": "Sa ei oma seda Tater-kasti!",
+
+  "text.lobby_extras.lobby_items": "Ära kasuta seda plokki väljaspool fuajeed!",
+
+  "text.lobby_extras.statistics.web_url": "Klõpsa siia, et vaadata selle mängu kogu statistikat!",
+  "text.lobby_extras.statistics.bundle_header": "Statistika mängule %s",
+  "text.lobby_extras.statistics.stat": "%s: %s"
+}

@@ -45,7 +45,7 @@ public class LobbyHeadItem extends BlockItem implements PolymerItem {
 
     @Override
     public Text getName() {
-        return Text.empty().append(super.getName()).append(ScreenTexts.SPACE).append(Text.translatable("text.nucleoid_extras.lobby_only"));
+        return Text.empty().append(super.getName()).append(ScreenTexts.SPACE).append(Text.translatable("text.lobby_extras.lobby_only"));
     }
 
     @Override
@@ -56,6 +56,6 @@ public class LobbyHeadItem extends BlockItem implements PolymerItem {
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         super.appendTooltip(stack, world, tooltip, context);
-        tooltip.add(Text.translatable("text.nucleoid_extras.lobby_items").setStyle(Style.EMPTY.withColor(Formatting.RED).withItalic(false)));
+        tooltip.add(Text.translatable("text.lobby_extras.lobby_items").setStyle(Style.EMPTY.withColor(Formatting.RED).withItalic(false)));
     }
 }

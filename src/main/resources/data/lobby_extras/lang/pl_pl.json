@@ -1,0 +1,20 @@
+{
+  "lobby_extras.stop.scheduled": "Server restart has been scheduled! The server will restart in %s minutes, or when all games exit.",
+  "lobby_extras.stop.scheduled.already": "Server restart has already been scheduled.",
+  "lobby_extras.stop.game.open": "Cannot join this game: a server stop has been scheduled!",
+
+  "nucleoid.navigator.all_games": "Wszystkie Gry",
+  "nucleoid.navigator.open_games": "Aktualnie Grane",
+
+  "block.lobby_extras.tiny_potato": "Mały Ziemniaczek",
+
+  "item.lobby_extras.game_portal_opener": "Game Portal Opener",
+  "item.lobby_extras.launch_feather": "Pióro wystrzeliwujące",
+
+  "text.lobby_extras.statistics.web_url": "Click here to check out all the stats for this game!",
+  "text.lobby_extras.statistics.bundle_header": "Statytyki dla %s",
+  "text.lobby_extras.statistics.stat": "%s: %s",
+  "text.lobby_extras.statistics.list_ui": "Twoje statystyku",
+  "text.lobby_extras.statistics.waiting": "Czekam na dane",
+  "text.lobby_extras.seconds": "%s sekund(y/a)"
+}

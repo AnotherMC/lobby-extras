@@ -32,7 +32,7 @@ public class CommonGuiElements {
     }
 
     public static GuiElement purple() {
-        return PURPLE_PLATE;
+        return WHITE_PLATE;
     }
 
     public static GuiElement white() {

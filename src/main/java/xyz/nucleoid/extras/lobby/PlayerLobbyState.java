@@ -10,10 +10,9 @@ import xyz.nucleoid.extras.lobby.block.tater.TinyPotatoBlock;
 import java.util.HashSet;
 import java.util.Set;
 
+@SuppressWarnings("InstantiationOfUtilityClass")
 public class PlayerLobbyState {
-
-    public static final PlayerDataStorage<PlayerLobbyState> STORAGE = new JsonDataStorage<>("nucleoid_extras", PlayerLobbyState.class);
-    public final Set<TinyPotatoBlock> collectedTaters = new HashSet<>();
+    public static final PlayerDataStorage<PlayerLobbyState> STORAGE = new JsonDataStorage<>("lobby_extras", PlayerLobbyState.class);
 
     public static PlayerLobbyState get(PlayerEntity player) {
         if (!(player instanceof ServerPlayerEntity serverPlayer)) {

@@ -15,8 +15,8 @@ import xyz.nucleoid.extras.util.PagedGui;
 import java.util.List;
 
 public class TaterBoxGui extends PagedGui.FromList {
-	protected static final Text SHOW_UNFOUND_TEXT = Text.translatable("text.nucleoid_extras.tater_box.show_unfound").formatted(Formatting.WHITE);
-	protected static final Text HIDE_UNFOUND_TEXT = Text.translatable("text.nucleoid_extras.tater_box.hide_unfound").formatted(Formatting.WHITE);
+	protected static final Text SHOW_UNFOUND_TEXT = Text.translatable("text.lobby_extras.tater_box.show_unfound").formatted(Formatting.WHITE);
+	protected static final Text HIDE_UNFOUND_TEXT = Text.translatable("text.lobby_extras.tater_box.hide_unfound").formatted(Formatting.WHITE);
 	protected static final Item UNFOUND_BUTTON_ICON = Items.POISONOUS_POTATO;
 
 	protected boolean hideUnfound = true;
@@ -93,7 +93,7 @@ public class TaterBoxGui extends PagedGui.FromList {
 	}
 
 	public static class TaterGuiElementBuilder extends GuiElementBuilder {
-		protected static final Text NOT_FOUND_TEXT = Text.translatable("text.nucleoid_extras.tater_box.not_found").formatted(Formatting.RED);
+		protected static final Text NOT_FOUND_TEXT = Text.translatable("text.lobby_extras.tater_box.not_found").formatted(Formatting.RED);
 		protected static final Item UNFOUND_ICON = Items.POTATO;
 
 		protected boolean found;

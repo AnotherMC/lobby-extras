@@ -44,12 +44,12 @@ public class StatisticsIntegration {
 
                 var bundleName = Text.translatable(GameStatisticBundle.getTranslationKey(namespace));
 
-                player.sendMessage(Text.translatable("text.nucleoid_extras.statistics.bundle_header", bundleName)
+                player.sendMessage(Text.translatable("text.lobby_extras.statistics.bundle_header", bundleName)
                         .formatted(Formatting.GREEN), false);
 
                 stats.visitAllStatistics((key, value) -> {
                     if (!key.hidden()) {
-                        player.sendMessage(Text.translatable("text.nucleoid_extras.statistics.stat",
+                        player.sendMessage(Text.translatable("text.lobby_extras.statistics.stat",
                                 Text.translatable(key.getTranslationKey()), convertForDisplay(key.id(), value)), false);
                     }
                 });
@@ -73,10 +73,10 @@ public class StatisticsIntegration {
         body.add("bundle", bundleObject);
         body.addProperty("game_id", gameId.toString());
         this.sendBundle(body);
-        space.getPlayers().sendMessage(Text.translatable("text.nucleoid_extras.statistics.web_url", gameId)
+        /*space.getPlayers().sendMessage(Text.translatable("text.lobby_extras.statistics.web_url", gameId)
                 .formatted(Formatting.GRAY, Formatting.ITALIC)
                 .styled(style -> style.withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL,
-                        "https://stats.nucleoid.xyz/games/" + gameId))));
+                        "https://stats.nucleoid.xyz/games/" + gameId))));*/
     }
 
     private void sendBundle(JsonObject bundle) {
@@ -108,7 +108,7 @@ public class StatisticsIntegration {
                 if (!text.getSiblings().isEmpty()) {
                     text.append(" ");
                 }
-                text.append(Text.translatable("text.nucleoid_extras.seconds", Text.literal((seconds - (int) seconds >= 0.005) ? String.format("%.2f", seconds % 60) : ("" + ((int)seconds) % 60))));
+                text.append(Text.translatable("text.lobby_extras.seconds", Text.literal((seconds - (int) seconds >= 0.005) ? String.format("%.2f", seconds % 60) : ("" + ((int)seconds) % 60))));
             }
             return text;
         }

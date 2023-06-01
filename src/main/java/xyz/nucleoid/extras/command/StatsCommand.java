@@ -34,7 +34,7 @@ public class StatsCommand {
     private static int openScreen(CommandContext<ServerCommandSource> context) throws CommandSyntaxException {
 
 
-        var base = Text.translatable("text.nucleoid_extras.statistics.waiting").append("   ");
+        var base = Text.translatable("text.lobby_extras.statistics.waiting").append("   ");
 
         var gui = new SimpleGui(ScreenHandlerType.GENERIC_9X6, context.getSource().getPlayerOrThrow(), false) {
             int tick = 0;
@@ -74,7 +74,7 @@ public class StatsCommand {
         }
         list.sort(Comparator.comparing(x -> x.getItemStack().getName().getString()));
         var gui = PagedGui.of(player, list, null);
-        gui.setTitle(Text.translatable("text.nucleoid_extras.statistics.list_ui"));
+        gui.setTitle(Text.translatable("text.lobby_extras.statistics.list_ui"));
         gui.open();
     }
 

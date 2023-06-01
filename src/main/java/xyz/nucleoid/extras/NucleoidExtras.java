@@ -16,13 +16,12 @@ import xyz.nucleoid.extras.game_portal.ServerChangePortalBackend;
 import xyz.nucleoid.extras.integrations.NucleoidIntegrations;
 import xyz.nucleoid.extras.integrations.http.NucleoidHttpClient;
 import xyz.nucleoid.extras.lobby.*;
-import xyz.nucleoid.extras.lobby.contributor.ContributorData;
 import xyz.nucleoid.extras.placeholder.ExtraPlaceholders;
 import xyz.nucleoid.extras.scheduled_stop.ScheduledStop;
 import xyz.nucleoid.extras.sidebar.NucleoidSidebar;
 
 public final class NucleoidExtras implements ModInitializer {
-    public static final String ID = "nucleoid_extras";
+    public static final String ID = "lobby_extras";
     public static final Logger LOGGER = LogManager.getLogger(NucleoidExtras.class);
 
     @Override
@@ -38,7 +37,6 @@ public final class NucleoidExtras implements ModInitializer {
 
         NucleoidIntegrations.register();
         NucleoidHttpClient.register();
-        ContributorData.register();
 
         ExtrasErrorReporter.register();
         ExtraPlaceholders.register();
